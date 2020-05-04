@@ -1,0 +1,31 @@
+body{position:relative;font-family:"helvetica";font-size:16px;z-index:100;}
+div.autosuggest{position:absolute;background-image:url(../images/as_pointer.gif);background-position:top;background-repeat:no-repeat;padding:10px 0 0 0;z-index:100;}
+div.autosuggest div.as_header,
+div.autosuggest div.as_footer{position:relative;height:6px;padding:0 6px;background-image:url(../images/top-right-drop-dn.gif);background-position:top right;background-repeat:no-repeat;overflow:hidden;}
+div.autosuggest div.as_footer{background-image:url(https://www.bringabottle.co.uk/wp-content/themes/bringabottle/images/btm-right-drop-dn.gif);}
+div.autosuggest div.as_header div.as_corner,
+div.autosuggest div.as_footer div.as_corner{position:absolute;top:0;left:0;height:6px;width:6px;background-image:url(../images/top-left-drop-dn.gif);background-position:top left;background-repeat:no-repeat;}
+div.autosuggest div.as_footer div.as_corner{background-image:url(https://www.bringabottle.co.uk/wp-content/themes/bringabottle/images/btm-left-drop-dn.gif);}
+div.autosuggest div.as_header div.as_bar,
+div.autosuggest div.as_footer div.as_bar{height:6px;overflow:hidden;background-color:#791e46; background-color:transparent;}
+div.autosuggest ul{list-style:none;margin:0 0 -4px 0;padding:0;overflow:hidden;background-color:#ffffff;}
+div.autosuggest ul li{color:#515151;padding:0;margin:0 5px 4px;text-align:left;}
+div.autosuggest ul li a{color:#515151;display:block;text-decoration:none;background-color:transparent;position:relative;padding:0;width:100%;}
+/*div.autosuggest ul li a:hover{background-color:#4c4c4c;}
+div.autosuggest ul li.as_highlight a:hover{background-color:#791e46;}*/
+div.autosuggest ul li a span{display:block;padding:3px 6px;font-weight:normal;}
+div.autosuggest ul li a span small{font-weight:normal;}
+div.autosuggest ul li.as_highlight a span small{}
+div.autosuggest ul li.as_highlight a{background-color:transparent;background-image:url(https://www.bringabottle.co.uk/wp-content/themes/bringabottle/images/hl_corner_br.gif);background-position:bottom right;background-repeat:no-repeat; background-image:none;}
+div.autosuggest ul li.as_highlight a span{background-image:url(https://www.bringabottle.co.uk/wp-content/themes/bringabottle/images/hl_corner_bl.gif);background-position:bottom left;background-repeat:no-repeat; background-image:none;}
+div.autosuggest ul li a .tl,
+div.autosuggest ul li a .tr{background-image:transparent;background-repeat:no-repeat;width:6px;height:6px;position:absolute;top:0;padding:0;margin:0;}
+div.autosuggest ul li a .tr{right:0;}
+div.autosuggest ul li.as_highlight a .tl{left:0;background-image:url(https://www.bringabottle.co.uk/wp-content/themes/bringabottle/images/hl_corner_tl.gif);background-position:bottom left;  background-image:none;}
+div.autosuggest ul li.as_highlight a .tr{right:0;background-image:url(../images/hl_corner_tr.gif);background-position:bottom right; background-image:none;}
+div.autosuggest ul li.as_warning{font-weight:bold;text-align:center;}
+div.autosuggest ul em{font-style:normal;color:#515151;}
+.page-text-required{font-family:Georgia, Helvetica;font-size:16px;font-style:normal;line-height:normal;font-weight:normal;font-variant:normal;text-transform:none;color:#383838;text-decoration:none;padding-left:0px;padding-right:10px;}
+div.autosuggest ul li:hover, div.autosuggest ul li a:hover, div.autosuggest ul li a:hover em, div.autosuggest ul li a:hover span{color:#ff4d4d; background:none !important;}
+div.autosuggest div.as_header, div.autosuggest div.as_footer{display:none;}
+div.autosuggest{box-shadow:0 0 5px #ccc; padding:0;}

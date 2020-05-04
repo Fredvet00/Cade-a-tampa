@@ -1,0 +1,16 @@
+.loading-indicator1 {
+	height: 40px;
+	width: 40px;
+	background: url( '../images/loading.svg' );
+	background-repeat: no-repeat;
+	/*background-position: center center;*/
+	position:absolute !important;
+	top:70% !important;
+	left:53% !important;
+}
+
+.loading-indicator-overlay1 {
+	background-color: #FFFFFF;
+	opacity: 0.6;
+	filter: alpha(opacity = 60);
+}

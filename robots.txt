@@ -1,0 +1,41 @@
+#block bots
+User-Agent: AhrefsBot
+Disallow: / 
+
+User-Agent: *
+Disallow:/view-details.asp
+Disallow:/buy-product.asp
+Disallow:/buy-product.php
+Disallow:/search-result.asp
+Disallow:/search-result.php
+Disallow:/price-chart-new.php
+Disallow:/price-chart-mobile.php
+Disallow:/category/compare-red-wine/bulgarian-red-wines
+Disallow:/category/compare-red-wine/armenian-red-wines
+Disallow:/category/compare-red-wine/romanian-red-wines
+Disallow:/category/compare-red-wine/hungarian-red-wines
+Disallow:/category/compare-red-wine/uruguayan-red-wines
+Disallow:/category/compare-red-wine/lebanese-red-wines
+Disallow:/category/compare-red-wine/hungarian-red-wines
+Disallow:/category/compare-red-wine/cypriot-red-wines
+Disallow:/category/compare-red-wine/indian-red-wines
+Disallow:/category/compare-red-wine/cypriot-red-wines
+Disallow:/category/compare-white-wine/cypriot-white-wines
+Disallow:/category/compare-white-wine/uraguayan-white-wines
+Disallow:/category/compare-white-wine/georgian-white-wines
+Disallow:/category/compare-white-wine/indian-white-wines
+Disallow:/category/compare-white-wine/hungarian-white-wines
+Disallow:/category/compare-rose-wine/hungarian-rose-wines
+Disallow:/set-alert.asp
+Disallow:/set-alert.php
+Disallow:/proccess_form.php
+Disallow:/forgot-password
+Disallow:/tag/
+Disallow:/blog/tag/
+Disallow:/blog/category/
+Disallow:/blog/author/
+Disallow:/3572241/
+Disallow:/proccess_form.php
+Sitemap: https://www.bringabottle.co.uk/sitemap.php
+Sitemap: https://www.bringabottle.co.uk/stocksitemap.xml
+Sitemap: https://www.bringabottle.co.uk/sitemap-blog.php
